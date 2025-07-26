@@ -1,0 +1,56 @@
+.container {
+    width: 960px;
+    height: 960px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square {
+    border: 2px solid black;
+    border-radius 3px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Very dumb, but works. */
+.square-0 {
+    background: rgba(0, 0, 0, 0.0);
+}
+.square-1 {
+    background: rgba(0, 0, 0, 0.1);
+}
+.square-2 {
+    background: rgba(0, 0, 0, 0.2);
+}
+.square-3 {
+    background: rgba(0, 0, 0, 0.3);
+}
+.square-4 {
+    background: rgba(0, 0, 0, 0.4);
+}
+.square-5 {
+    background: rgba(0, 0, 0, 0.5);
+}
+.square-6 {
+    background: rgba(0, 0, 0, 0.6);
+}
+.square-7 {
+    background: rgba(0, 0, 0, 0.7);
+}
+.square-8 {
+    background: rgba(0, 0, 0, 0.8);
+}
+.square-9 {
+    background: rgba(0, 0, 0, 0.9);
+}
+.square-10 {
+    background: rgba(0, 0, 0, 1.0);
+}
+
+.square:hover {
+    background-color: gray;
+}

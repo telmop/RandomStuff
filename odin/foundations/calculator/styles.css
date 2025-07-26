@@ -1,0 +1,32 @@
+.screen {
+    display: flex;
+    justify-contents: center;
+}
+
+.number-visor {
+    border: 2px solid black;
+    width: 80px;
+    text-align: right;
+}
+
+.current-operation {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+button {
+    width: 25px;
+    height: 25px;
+}
+
+.operation {
+    background-color: aliceblue;
+    border: none;
+    border-radius: 2px;
+}
+
+.operation:hover {
+    background-color: azure;
+}
